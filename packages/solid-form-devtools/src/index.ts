@@ -1,5 +1,3 @@
-'use client'
-
 import * as Devtools from './FormDevtools'
 import * as plugin from './plugin'
 
@@ -13,4 +11,4 @@ export const formDevtoolsPlugin =
     ? plugin.formDevtoolsNoOpPlugin
     : plugin.formDevtoolsPlugin
 
-export type { FormDevtoolsReactInit } from './FormDevtools'
+export type { FormDevtoolsSolidInit } from './FormDevtools'
