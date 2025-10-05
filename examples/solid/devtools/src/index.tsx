@@ -1,5 +1,6 @@
 // lib
 import { render } from 'solid-js/web'
+
 import { TanStackDevtools } from '@tanstack/solid-devtools'
 import { formDevtoolsPlugin } from '@tanstack/solid-form-devtools'
 

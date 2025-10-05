@@ -3,7 +3,7 @@
 import * as Devtools from './FormDevtools'
 import * as plugin from './plugin'
 
-export const FormDevtools =
+export const FormDevtoolsPanel =
   process.env.NODE_ENV !== 'development'
     ? Devtools.FormDevtoolsPanelNoOp
     : Devtools.FormDevtoolsPanel
